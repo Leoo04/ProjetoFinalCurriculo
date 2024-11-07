@@ -1,0 +1,59 @@
+body {
+    display: flex; /* Aplica flexbox ao body */
+    justify-content: center; /* Centraliza as divs horizontalmente */
+    gap: 10px; /* Espaçamento entre as divs */
+}
+
+.PrimeiroCV, .SegundoCV, .TerceiroCV {
+    margin-top: 130px;
+    margin-right: 50px;
+    padding: 30px; /* Opcional: padding interno */
+    width: 200px; /* Ajuste a largura conforme necessário */
+}
+
+.TituloLeo{
+    margin-left: 40px;
+    margin-top: 25px;
+    
+}
+
+.botaoCL{
+    display: flex;
+    flex-direction: column;
+    width: 130px;
+    height: 25px;
+    border-radius: 15px;
+    margin-top: 180px;
+    margin-left: 50px;
+}
+
+.TituloPietra{
+    margin-left: 22px;
+    margin-top: 25px;
+}
+
+.botaoCP{
+    display: flex;
+    flex-direction: column;
+    width: 130px;
+    height: 25px;
+    border-radius: 15px;
+    margin-top: 180px;
+    margin-left: 40px;
+}
+
+.TituloVitor{
+    margin-left: 10px;
+    margin-top: 25px;
+    
+}
+
+.botaoCV{
+    display: flex;
+    flex-direction: column;
+    width: 130px;
+    height: 25px;
+    border-radius: 15px;
+    margin-top: 180px;
+    margin-left: 30px;
+}

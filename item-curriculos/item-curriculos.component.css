@@ -1,0 +1,56 @@
+body{
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.portfolio{
+    margin-left: 100px;
+    margin-top: 180px;
+    
+}
+
+.inputs-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    width: 300px;
+    height: 100px;
+}
+
+.inputs-container input{
+    margin-bottom: 10px;
+    width: 200px;
+    height: 30px;
+    border-radius: 16px;
+    background-color: #a6a6a6;
+}
+
+.inputs-container ::placeholder{
+    color: darkcyan;
+}
+
+.barrinha{
+    color: black;
+}
+
+button{
+    display: block;
+    margin: 10px 0;
+    height: 30px;
+    width: 205px;
+    margin-left: 30px;
+    border-radius: 16px;
+    background-color: #a6a6a6;
+    color: white;
+    margin-top: 40px;
+}
+
+.buttonCadastro{
+    height: 30px;
+    width: 205px;
+    margin-left: 30px;
+    border-radius: 16px;
+    background-color: #a6a6a6;
+    color: white;
+    margin-top: 40px;
+}
